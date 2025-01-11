@@ -1,4 +1,5 @@
-baseURL: http://something-fresh.org/
+# https://looka.com/editor/207885145
+baseURL: https://open-edm.github.io/landing/
 languageCode: en-us
 title: Open EDM
 
@@ -115,8 +116,8 @@ params:
     #   - text: App settings
     #     url: /
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: No Limits
+    subtitle: Device Management Platform
     tiles:
     - title: Open Code
       icon: mouse-globe
@@ -133,44 +134,44 @@ params:
       text: Scale without any extra cost implications
       url: /
       buttonText: Get started
-  section2:
-    title: You're here because you want the best
-    subtitle: And we know it
-    features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      # Icon (from static/images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
-  section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
+  # section2:
+  #   title: You're here because you want the best
+  #   subtitle: And we know it
+  #   features:
+  #   - title: Powerful and unified interface
+  #     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+  #     # Icon (from static/images/illustrations/icons/___.svg)
+  #     icon: laptop-globe
+  #   - title: Cross-device synchronisation
+  #     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+  #     icon: doc-sync
+  #   - title: Nomad system
+  #     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+  #     icon: mobile-feed
+  # section3:
+  #   title: One platform
+  #   subtitle: To rule them all
+  #   image: illustrations/mockups/app-mockup.png
+  #   buttonText: Get started
+  #   buttonLink: "#"
   section4:
     title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    subtitle: We not only support with device management but also provide support with custom operating systems and other technical consultation topics
     clients:
     - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
+      quote: OpenEDM intuitive interface and robust security features enable IT managers to streamline workflows while ensuring device compliance across the logistics center.
+      job: Logistcis Manager
       img: 1
     - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
+      quote: OpenEDM has streamlined our logistics operations by providing seamless device tracking and efficient deployment. Its flexibility have allowed us to customize it to our unique needs, driving improved productivity.
+      job: Head of Engineering
       img: 2
     - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
+      quote: The team has been supportive to us beyond regular device management, their immutable linux os has been revolutionary to avoid misuse of our enterprise devices by shop floor workers.
+      job: CEO
       img: 3
   section5:
-    title: Drop us a line or two
+    title: Interested in a Demo or Product Pricing
     subtitle: We'd love to hear from you
     buttonText: Send Message
     action: https://formspree.io/f/mnnnoben
@@ -179,12 +180,12 @@ params:
     # Logo (from static/images/logos/___)
     logo: wlogo.png
     # Social Media Title
-    # socialmediatitle: Follow Us
+    socialmediatitle: Follow Us
     # # Social media links (GitHub, Twitter, etc.). All are optional.
-    # socialmedia:
-    # - link: https://github.com/StefMa
-    #   # Icons are from Font Awesome
-    #   icon: github
+    socialmedia:
+    - link: https://github.com/open-edm
+      # Icons are from Font Awesome
+      icon: github
     # - link: https://dribbble.com/#
     #   icon: dribbble
     # - link: https://facebook.com/#
@@ -194,12 +195,12 @@ params:
     # - link: https://bitbucket.org/#
     #   icon: bitbucket
     bulmalogo: false
-    # quicklinks:
-    #   column1:
-    #     title: "Product"
-    #     links:
-    #     - text: Discover features
-    #       link: /
+    quicklinks:
+      column1:
+        title: "Contact Us"
+        links:
+        - text: Email
+          link: mailto:kapoorsoftwares@gmail.com
     #     - text: Why choose our product?
     #       link: /
     #     - text: Compare features
